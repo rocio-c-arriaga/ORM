@@ -1,0 +1,27 @@
+crear un rest api
+
+-nombre -texto
+-precio -entero
+-category/tipo -enum (para limitar opciones)
+-existencia -boleano
+-cantidad
+-descripcion -texto
+
+tabla products
+
+endpoint Productos
+
+- agregar... POST/Productos
+-Actualizar ...PUT/producto/{id}
+-Eliminar... DELETE/producto/{id}
+-Listar... GET/producto
+-Buscar...Get / producto (Uso de where complete)
+    -nombre
+    -precio
+    -categoria
+
+help 
+sequelizejs.com/class/lib/query
+
+
+
